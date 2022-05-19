@@ -40,7 +40,7 @@ client.on('message', msg => {
     try{
       gameplay.receivingSomething(userList.getUserList(),userList.getUserHost(),msg,MessageAttachment);
     }catch(err){
-      console.log("Im trying to fucking catch");
+      console.log("Im trying to catch");
       console.error(err);
     }
     break;
@@ -54,4 +54,4 @@ client.on('message', msg => {
 
 //Remember to enter the ID here before continuing to work Desktop/DiscordClientCode.txt
 //Remember to remove ID before committing
-client.login('');
+client.login('NjkwODE2MzI1OTc0NjIyMjA4.XnW61g.hGMOpk1awXiKxhG56oVc41-U0ps');
